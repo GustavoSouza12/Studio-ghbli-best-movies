@@ -1,0 +1,119 @@
+
+[
+    {
+        "image": "img/castle-in-the-sky.jpg",
+        "id": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+        "title":"Castle in the Sky",
+        "my_anime_list_link": "https://myanimelist.net/anime/513/Tenkuu_no_Shiro_Laputa?q=ASTLE%20IN%20THE%20SKY&cat=anime"
+    },
+    {
+        "image": "img/grave-of-the-fireflies.jpg",
+        "id": "12cfb892-aac0-4c5b-94af-521852e46d6a",
+        "title":"Grave of the Fireflies",
+        "my_anime_list_link": "https://myanimelist.net/anime/578/Hotaru_no_Haka"
+    },
+
+    {
+        "image": "img/my-neighbor-totoro.jpg",
+        "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
+        "title":"My Neighbor Totoro",
+        "my_anime_list_link": "https://myanimelist.net/anime/523/Tonari_no_Totoro"
+    },
+    {   "image": "img/kikis-delivery-service.jpg",
+        "id": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
+        "title":"Kiki's Delivery Service",
+        "my_anime_list_link": "https://myanimelist.net/anime/512/Majo_no_Takkyuubin"
+    },
+    {   "image": "img/only-yesterday.jpg",
+        "id": "4e236f34-b981-41c3-8c65-f8c9000b94e7",
+        "title":"Only Yesterday",
+        "my_anime_list_link": "https://myanimelist.net/anime/1029/Omoide_Poroporo"
+    },
+    {   "image": "img/porco-rosso.jpg",
+        "id": "ebbb6b7c-945c-41ee-a792-de0e43191bd8",
+        "title":"Porco Rosso",
+        "my_anime_list_link": "https://myanimelist.net/anime/416/Kurenai_no_Buta"
+    },
+    
+    {   "image": "img/pom-poko.jpg",
+        "id": "",
+        "title":"Pom Poko",
+        "my_anime_list_link": "https://myanimelist.net/anime/1030/Heisei_Tanuki_Gassen_Ponpoko"
+    },
+    {   "image": "img/whisper-of-the-hearth.jpg",
+        "id": "",
+        "title":"Whisper of the Heart",
+        "my_anime_list_link": "https://myanimelist.net/anime/585/Mimi_wo_Sumaseba"
+    },
+    {
+        "image": "img/princess-mononoke.jpg",
+        "id": "",
+        "title":"Princess Mononoke",
+        "my_anime_list_link": "https://myanimelist.net/anime/164/Mononoke_Hime"
+    },
+    {   "image": "img/my-neighbors-the-yamadas.jpg",
+        "id": "",
+        "title":"My Neighbors the Yamadas",
+        "my_anime_list_link": "https://myanimelist.net/anime/415/Tonari_no_Yamada-kun"
+    },
+    {   
+        "image": "img/spirited-away.jpg",
+        "id": "",
+        "title":"Spirited Away",
+        "my_anime_list_link": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi"
+    },
+    {
+        "image": "img/the-cat-returns.jpg",
+        "id": "",
+        "title":"The Cat Returns",
+        "my_anime_list_link": "https://myanimelist.net/anime/597/Neko_no_Ongaeshi"
+    },
+    {   "image": "img/howl-no-ugoku-shiro.jpg",
+        "id": "",
+        "title":"Howl's Moving Castle",
+        "my_anime_list_link": "https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro"
+    },
+    {
+       "image": "img/thales-from-earthsea.jpg",
+        "id": "",
+        "title":"Tales from Earthsea",
+        "my_anime_list_link": "https://myanimelist.net/anime/1829/Ged_Senki"
+    },
+    {
+       "image": "img/ponyo.jpg",
+        "id": "",
+        "title":"Ponyo",
+        "my_anime_list_link": "https://myanimelist.net/anime/2890/Gake_no_Ue_no_Ponyo"
+    },
+    {   
+        "image": "img/the-secret-world-of-arriety.jpg",
+        "id": "",
+        "title":"Arrietty",
+        "my_anime_list_link": "https://myanimelist.net/anime/7711/Karigurashi_no_Arrietty"
+    },
+    {
+        "image": "img/from-up-on-poppy-hill.jpg",
+        "id": "",
+        "title":"From Up on Poppy Hill",
+        "my_anime_list_link": "https://myanimelist.net/anime/10029/Coquelicot-zaka_kara"
+    },
+    {   
+        "image": "img/the-wind-rises.jpg", 
+        "id": "",
+        "title":"The Wind Rises",
+        "my_anime_list_link": "https://myanimelist.net/anime/16662/Kaze_Tachinu"
+    },
+    {
+        "image": "img/the-tale-of-the-princess-kaguya.jpg",
+        "id": "",
+        "title":"The Tale of the Princess Kaguya",
+        "my_anime_list_link": "https://myanimelist.net/anime/16664/Kaguya-hime_no_Monogatari"
+    },
+    {   
+        "image": "img/when-marnie-was-there.jpg",
+        "id": "",
+        "title":"When Marnie Was There",
+        "my_anime_list_link": "https://myanimelist.net/anime/21557/Omoide_no_Marnie"
+    }
+
+]

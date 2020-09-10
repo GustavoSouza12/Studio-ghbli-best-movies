@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title> Studio Ghbli | Best Films </title>
+    </head>
+    <body id="goTop">
+        <div class="container">
+            <nav>
+                <div class="nav-wrapper">
+                <img class="brand-logo" src="img/logo.png"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Made by Gustavo</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>    
+
+        <div class="preLoader">
+            <div class="preLoader-container">
+                <img class="preLoader-image" style="height: 150px;" src="img/logo.png"/>
+                <h4>Some films from one of the best anime studios</h4>
+            </div>
+        </div>
+        
+        <div id="movies-carousel-container" class="container carousel-image"> </div> 
+
+        <div id="movies-content-container" class="container"></div> 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script type="text/javascript">
+
+        // Studio Ghbli API
+        const api_studio_ghbli = "https://ghibliapi.herokuapp.com/films/"
+        const getMovies = () => {
+            fetch(api_studio_ghbli)
+            .then(res=>res.json())
+            .then(data=>{
+                let filmContainer = ' <h1>Movies</h1> '
+                data.forEach(function(movie){
+                    filmContainer += ` <div class="row" id=${movie.id} >
+                                    <div class="col s12 m12" >
+                                    <div class="card">
+                                        <h3 >${movie.title}</h3>
+                                        <div class="card-image">
+                                            <img src="">
+                                        </div>
+                                        <div class="card-content">
+                                            <p>${movie.description}</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">This is a link</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div> `
+                            })
+                document.getElementById('movies-content-container').innerHTML = filmContainer
+                console.log(data)
+            })
+        }
+        const complementary_db = "./complementary-db.json"
+        const getComplementaryInformation = () => {
+            fetch(complementary_db)
+            .then(res=>res.json())
+            .then(data=>{
+                let CarouselContainer = ''
+                data.forEach(function(movie){
+                    CarouselContainer += ` 
+                    <h3>${movie.title}</h3>
+                    <div class="title-film">
+                        <a href=#${movie.id}><img src=${movie.image}></a>
+                        <a href=${movie.my_anime_list_link} target="_blank"><img src="img/mal-logo.png" style=" height: 70px; width: 70px; "></img></a>
+                    </div>    
+                    `
+                    })
+                document.getElementById('movies-carousel-container').innerHTML = CarouselContainer
+         
+               console.log(data)
+            })
+        }
+   
+        document.getElementById('movies-carousel-container').innerHTML = getComplementaryInformation()
+        document.getElementById('movies-content-container').innerHTML =  getMovies()
+
+        </script>
+    </body>
+</html>
