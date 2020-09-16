@@ -4,7 +4,7 @@ body{
     scroll-behavior: smooth !important;
     overflow-x: hidden;
 
-    background: linear-gradient(90deg, rgb(0, 0, 0)5%, rgba(67,63,27,1) 50%, rgba(0,0,0,1) 75%);
+
     background-position: center;
     margin: 0 auto;
 }
@@ -44,15 +44,15 @@ h1::after,h3:after {
     width: 100vw;
     z-index: 100000;
 
-    background-image: url(background/starsBackground.jpeg);
+    background-image: url(background/background-preloader.png);
     background-repeat: no-repeat;
     background-size: cover;
 
     overflow: hidden;
 
     animation-name: teste;
-    animation-duration: 0.3s;
-    animation-delay: 2s;
+    animation-duration: 0s;
+    animation-delay: 0;
     animation-fill-mode: forwards;
     
 
@@ -72,6 +72,10 @@ h1::after,h3:after {
 .preloader .preLoader-container .preLoader-image{
     height: 1000px;
 }
+.main-title{
+    font-size: 80px !important;
+    text-align: center;
+}
 nav{
     background-image: url(background/starsBackground.jpeg);
     border: 2px solid #c6bb9f;  
@@ -80,6 +84,21 @@ nav{
 }
 nav .nav-wrapper .brand-logo{
     height: 70px;
+}
+.movies_carousel_and_background-container{
+    position: relative;  
+
+    text-align: center;
+}
+
+.movies_carousel_and_background-container .background_movie_theater-image{
+    z-index: -10000;
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    width: 120%;
+    transform: rotateX(65deg);
+
 }
 .carousel-image{
    
@@ -91,24 +110,41 @@ nav .nav-wrapper .brand-logo{
     
     margin: 150px auto !important;
 
-    background-image: url(background/starsBackground.jpeg);
+    background-image: url(background/background-preloader.png);
     background-size: cover;
 
     text-align: center;
+
+   
+}
+#movies_carousel-container{
+    z-index: 10000;
 }
 .carousel-image .title-film{
     width: 4000px !important;
 }
-#movies-carousel-container img{
+#movies_carousel-container img{
     height:400px;
     width: 250px;
 
     margin: 20px;
     margin-right: 120px;
 }
+.movies_carousel-button{
+    display: flex;
+    flex-direction: row;
+}
 
-#movies-content-container{
+#movies_content-container{
     text-align: center;
+    margin-top: 300px;
+}
+
+#movies_content-container .card{
+    background-image: url("background/starsBackground.jpeg")
+}
+#movies_content-container .card .card-content{
+    color: white;
 }
 @media only screen and (max-width: 768px ){
   
