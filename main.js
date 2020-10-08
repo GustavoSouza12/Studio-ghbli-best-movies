@@ -18,7 +18,8 @@
                                       <p>${movie.description}</p>
                                   </div>
                                   <div class="card-action">
-                                      <a href="#">This is a link</a>
+                                      <span>Director: ${movie.director} </span>
+                                      <span>Producer: ${movie.producer} </span>
                                   </div>
                               </div>
                               </div>
@@ -40,8 +41,7 @@
                 <div class="title-film">
                     <a href=#${movie.id}><img src=${movie.image}></a>
                     <div class="movies_carousel-button">
-                        <a href=${movie.my_anime_list_link} target="_blank"><img src="img/mal-logo.png" style=" height: 70px; width: 70px; "></img></a>
-                        <a href=${movie.my_anime_list_link} target="_blank"><img src="img/mal-logo.png" style=" height: 70px; width: 70px; "></img></a>
+                        <a  href=${movie.my_anime_list_link} target="_blank"><img class="my_anime_list-button" src="img/mal-logo.png" ></img></a>
                     </div>  
                 </div>    
               `
