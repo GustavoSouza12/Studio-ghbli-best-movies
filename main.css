@@ -7,10 +7,11 @@ body{
 
     background-position: center;
     margin: 0 auto;
+    background-color:#47405f;
 }
 h1,h2,h3,h4,h5,h6 {
     background: linear-gradient(to bottom,
-      #cfc09f 22%,
+      #e6ae46 22%,
       #cfc09f 26%, 
       #cfc09f 27%,
       #ffecb3 40%,
@@ -168,6 +169,17 @@ nav .nav-wrapper .brand-logo{
 }
 #movies_content-container .card .card-content{
     color: white;
+}
+#movies_content-container .card .card-action{
+    background-color: #1e2031;
+    color: white;
+}
+#movies_content-container .card .card-action span{
+    padding: 10px;
+}
+#movies_content-container .card .card-action span .span-title{
+    font-size: 1.4rem;
+    color: #626799;
 }
 @media only screen and (max-width: 768px ){
   

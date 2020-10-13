@@ -36,82 +36,82 @@
     },
     
     {   "image": "img/pom-poko.jpg",
-        "id": "",
+        "id": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
         "title":"Pom Poko",
         "my_anime_list_link": "https://myanimelist.net/anime/1030/Heisei_Tanuki_Gassen_Ponpoko"
     },
     {   "image": "img/whisper-of-the-hearth.jpg",
-        "id": "",
+        "id": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
         "title":"Whisper of the Heart",
         "my_anime_list_link": "https://myanimelist.net/anime/585/Mimi_wo_Sumaseba"
     },
     {
         "image": "img/princess-mononoke.jpg",
-        "id": "",
+        "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6",
         "title":"Princess Mononoke",
         "my_anime_list_link": "https://myanimelist.net/anime/164/Mononoke_Hime"
     },
     {   "image": "img/my-neighbors-the-yamadas.jpg",
-        "id": "",
+        "id": "45204234-adfd-45cb-a505-a8e7a676b114",
         "title":"My Neighbors the Yamadas",
         "my_anime_list_link": "https://myanimelist.net/anime/415/Tonari_no_Yamada-kun"
     },
     {   
         "image": "img/spirited-away.jpg",
-        "id": "",
+        "id": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
         "title":"Spirited Away",
         "my_anime_list_link": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi"
     },
     {
         "image": "img/the-cat-returns.jpg",
-        "id": "",
+        "id": "90b72513-afd4-4570-84de-a56c312fdf81",
         "title":"The Cat Returns",
         "my_anime_list_link": "https://myanimelist.net/anime/597/Neko_no_Ongaeshi"
     },
     {   "image": "img/howl-no-ugoku-shiro.jpg",
-        "id": "",
+        "id": "cd3d059c-09f4-4ff3-8d63-bc765a5184fa",
         "title":"Howl's Moving Castle",
         "my_anime_list_link": "https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro"
     },
     {
        "image": "img/thales-from-earthsea.jpg",
-        "id": "",
+        "id": "112c1e67-726f-40b1-ac17-6974127bb9b9",
         "title":"Tales from Earthsea",
         "my_anime_list_link": "https://myanimelist.net/anime/1829/Ged_Senki"
     },
     {
        "image": "img/ponyo.jpg",
-        "id": "",
+        "id": "758bf02e-3122-46e0-884e-67cf83df1786",
         "title":"Ponyo",
         "my_anime_list_link": "https://myanimelist.net/anime/2890/Gake_no_Ue_no_Ponyo"
     },
     {   
         "image": "img/the-secret-world-of-arriety.jpg",
-        "id": "",
+        "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
         "title":"Arrietty",
         "my_anime_list_link": "https://myanimelist.net/anime/7711/Karigurashi_no_Arrietty"
     },
     {
         "image": "img/from-up-on-poppy-hill.jpg",
-        "id": "",
+        "id": "45db04e4-304a-4933-9823-33f389e8d74d",
         "title":"From Up on Poppy Hill",
         "my_anime_list_link": "https://myanimelist.net/anime/10029/Coquelicot-zaka_kara"
     },
     {   
         "image": "img/the-wind-rises.jpg", 
-        "id": "",
+        "id": "67405111-37a5-438f-81cc-4666af60c800",
         "title":"The Wind Rises",
         "my_anime_list_link": "https://myanimelist.net/anime/16662/Kaze_Tachinu"
     },
     {
         "image": "img/the-tale-of-the-princess-kaguya.jpg",
-        "id": "",
+        "id": "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
         "title":"The Tale of the Princess Kaguya",
         "my_anime_list_link": "https://myanimelist.net/anime/16664/Kaguya-hime_no_Monogatari"
     },
     {   
         "image": "img/when-marnie-was-there.jpg",
-        "id": "",
+        "id": "5fdfb320-2a02-49a7-94ff-5ca418cae602",
         "title":"When Marnie Was There",
         "my_anime_list_link": "https://myanimelist.net/anime/21557/Omoide_no_Marnie"
     }

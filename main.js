@@ -18,8 +18,8 @@
                                       <p>${movie.description}</p>
                                   </div>
                                   <div class="card-action">
-                                      <span>Director: ${movie.director} </span>
-                                      <span>Producer: ${movie.producer} </span>
+                                      <span><span class="span-title">Director:</span> ${movie.director} </span>
+                                      <span><span class="span-title">Producer:</span> ${movie.producer} </span>
                                   </div>
                               </div>
                               </div>
